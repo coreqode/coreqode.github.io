@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Chandradeep  Pokhariya | blank</title>
+<title>Chandradeep  Pokhariya | Harmonic Densenet. Is MAC only metrics to measure the network complexity?</title>
 <meta name="description" content="">
 
 <!-- Open Graph -->
@@ -14,8 +13,8 @@
 <meta property="og:site_name" content="" />
 <meta property="og:type" content="object" />
 <meta property="og:title" content="" />
-<meta property="og:url" content="/blog/index.html" />
-<meta property="og:description" content="blank" />
+<meta property="og:url" content="/blog/2020/1/" />
+<meta property="og:description" content="Harmonic Densenet. Is MAC only metrics to measure the network complexity?" />
 <meta property="og:image" content="" />
 
 
@@ -42,7 +41,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2020/1/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -69,13 +68,41 @@
 <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
 
+    <script src="/assets/js/distillpub/template.v2.js"></script>
+    <script src="/assets/js/distillpub/transforms.v2.js"></script>
+    
   </head>
+
+  <d-front-matter>
+    <script async type="text/json">{
+      "title": "Harmonic Densenet. Is MAC only metrics to measure the network complexity?",
+      "description": "",
+      "published": "December 15, 2020",
+      "authors": [
+        
+      ],
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script>
+  </d-front-matter>
 
   <body class="fixed-top-nav sticky-bottom-footer">
 
     <!-- Header -->
 
-    <header>
+    <!-- <header>
 
     <!-- Nav Bar -->
     <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
@@ -120,88 +147,85 @@
           
           
           
-          
-          
         </ul>
       </div>
     </div>
   </nav>
 
 </header>
-
+ -->
 
     <!-- Content -->
 
-    <div class="container mt-5">
-      <div class="post">
+    <div class="post distill">
 
-  <div class="header-bar">
-    <h1>Andromeda</h1>
-    <h2></h2>
-  </div>
+      <d-title>
+          <h1><center>Harmonic Densenet. Is MAC only metrics to measure the network complexity?</center></h1>
+          <p><center></center></p>
+      </d-title>
 
+      <!-- <d-byline></d-byline> -->
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/2/">FabSoften - Face Beautification via Dynamic Skin Smoothing Guided Feathering, and Texture Restoration</a></h3>
-        <p class="post-meta">January 10, 2021</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/1/">Harmonic Densenet. Is MAC only metrics to measure the network complexity?</a></h3>
-        <p class="post-meta">December 15, 2020</p>
-        <p></p>
-      </li>
-    
-  </ul>
+      <d-article>
+        <p><img src="/assets/img/hardnet_block.png" alt="" title="Results" class="ci" /></p>
 
-  
+<h2 id="key-ideas">Key Ideas</h2>
 
+<p>This paper proposes new method to measure the complexity of neural
+network. Till now, the most common method to measure the network
+complexity is MACs (number of multiply-accumulate operations.), but the
+authors argue that this method can not be accurate in predicting
+inference time. They say that, when inferring over higher resolution,
+memory traffic can be dominating over MACs. <br />
+<br />
+ Following this metric, they propose a new architecture HarDNet
+(Harmonic Densenet) which reduce the inference time giving similar or
+better performance than the SOTA architectures.</p>
 
-</div>
+<p><img src="/assets/img/hardnet-MoC.png" alt="" title="Results" class="ci" /></p>
+
+<h2 id="what-did-the-authors-tried-to-accomplish">What did the Authors tried to accomplish?</h2>
+
+<ul>
+  <li>Introduction of new metrics which can be more accurate than MACs
+when inferring on higher resolution.</li>
+  <li>Proposal of new architecture HarDNet build upon the idea of Densenet
+which reduce the inference time by a lot.</li>
+  <li>Avoiding the use of 1x1 convolution as it increases the MoC.</li>
+  <li>Detailed experiments and analysis of architecture w.r.t.
+classification, object detection and segmentation tasks.</li>
+</ul>
+
+<h2 id="architecture">Architecture</h2>
+
+<p><img src="/assets/img/hardnet-architecture.png" alt="" title="Architecture" class="ci" /></p>
+
+<h2 id="results">Results</h2>
+
+<p><img src="/assets/img/hardnet-results.png" alt="" title="Results" class="ci" /></p>
+
+<p><img src="/assets/img/hardnet-results-2.png" alt="" title="Results" class="ci" /></p>
+
+<h2 id="reference">Reference</h2>
+
+<p><a href="https://arxiv.org/abs/1909.00948">HarDNet: A Low Memory Traffic
+Network</a></p>
+
+      </d-article>
+
+      <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix>
 
     </div>
 
     <!-- Footer -->
 
-    <!-- 
-<footer class="sticky-bottom mt-5">
-  <div class="container">
-    &copy; Copyright 2021 Chandradeep  Pokhariya.
-    
-    
-    
-  </div>
-</footer>
-
- -->
 
   </body>
 
-  <!-- Bootsrap & MDB scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
-
-  
-<!-- Mansory & imagesLoaded -->
-<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
-
-
-  
-
-
-<!-- Medium Zoom JS -->
-<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
-<script src="/assets/js/zoom.js"></script>
-
-
-<!-- Load Common JS -->
-<script src="/assets/js/common.js"></script>
-
+  <d-bibliography src="/assets/bibliography/">
+  </d-bibliography>
 
 </html>
