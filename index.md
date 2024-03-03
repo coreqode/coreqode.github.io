@@ -1,24 +1,16 @@
 ---
 layout: default
-title: Hello
+title: About
 ---
 
+I am a MS (research) student at [International Institute of Information Technology, Hyderabad](https://www.iiit.ac.in), working under the guidance of [Dr Avinash Sharma](https://3dcomputervision.github.io/about/) at CVIT and [Dr Srinath Sridhar](https://cs.brown.edu/people/ssrinath/) at [Brown IVL](https://ivl.cs.brown.edu). I am also collaborating with [Dr Rahul Narain](https://www.cse.iitd.ac.in/~narain/) on enhancing Position-Based Dynamics (PBD) for complex material models.
 
-## An easy to use, minimal, text focused Jekyll theme
 
-[Bear Blog](https://bearblog.dev/) is *"a blogging platform where words matter most"*. 
+My research thus far has spanned a diverse range of topics, including neural fields, hand-object grasp capture, textured cloth and human body reconstruction, neural surface parameterization and physics simulation. Throughout this exploration across various fields, I have discovered a strong interest in the areas of <em>computational geometry, geometric modeling,</em> and <em>physics-based simulations</em>. 
 
-This is a port of it's theme to Jekyll, with some tweaks. So you can use GitHub Pages to host your blog while getting the same awesome Bear Blog feels.
+In my leisure time I like to play [fingerstyle guitar](https://photos.app.goo.gl/uKAQGzjoXHCNwsdR9) and Indian bamboo flute. 
+I also love being in [nature](https://photos.app.goo.gl/zy3gfy7ecsk2fahra) and have recently taken up boxing as a new hobby.
 
-**Stop worrying about the style, focus on your writing.**
+[//]: <> <i class="fas fa-file-pdf"></i> [Resume](assets/pdf/resume.pdf) / <i class="fas fa-envelope"></i> [Email](chandradeep.pokhariya@research.iiit.ac.in) / <i class="fa fa-twitter"></i> [Twitter](https://twitter.com/coreqode) /  <i class="fas fa-rss"></i> [Blog](https://coreqode.github.io/ikigai/)
 
-- Looks great on *any* device
-- Tiny, optimized, and awesome pages
-- No trackers, ads, or scripts, *did I mention minimal already?*
-- Auto light and dark themes
-- Tag support, to filter blog pages
-- Quick, *15 minute* setup
-- Gallery view for your images
-- Code highlighting
-
-Have a look around, this website is already themed with **jekyllBear**. If you like it, head over to the GitHub [repository](https://github.com/knhash/jekyllBear) for installation instructions.
+Feel free to contact me on [Email](chandradeep.pokhariya@research.iiit.ac.in) / [Twitter](https://twitter.com/coreqode). 

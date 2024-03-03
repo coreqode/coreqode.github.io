@@ -346,4 +346,11 @@ small a {
 .bottom-footer {
     padding: 50px;
     text-align: center;
+    font-size: 10px;
 }
+
+.title {
+ text-align: center
+}
+
+

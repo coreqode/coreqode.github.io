@@ -1,10 +1,10 @@
 ###########
 # site.title
 
-title: jekyllBear
-description: a minimal, text focused blog theme
+title: Chandradeep Pokhariya
+description: 
 # baseurl: "/jekyllBear" # the subpath of your site, e.g. /blog/
-url: "https://knhash.in/jekyllBear" # the base hostname & protocol for your site
+url: "https://coreqode.github.io" # the base hostname & protocol for your site
 # host: 0.0.0.0
 
 
@@ -55,13 +55,14 @@ exclude:
 
 exclude: [vendor]
 
-Blog: /blog
+Blog: 
 
 # Add general links to site pages here
 links:
-  Resume: /assets/resume.pdf
-  
+  Research: /research
+  Resume: /assets/pdf/resume.pdf
+  Blog: /ikigai
 
 # Add links for more focus here
 special_links:
-  "Search": https://duckduckgo.com
+  # "Search": https://duckduckgo.com
