@@ -14,3 +14,4 @@ I also love being in [nature](https://photos.app.goo.gl/zy3gfy7ecsk2fahra) and h
 [//]: <> <i class="fas fa-file-pdf"></i> [Resume](assets/pdf/resume.pdf) / <i class="fas fa-envelope"></i> [Email](chandradeep.pokhariya@research.iiit.ac.in) / <i class="fa fa-twitter"></i> [Twitter](https://twitter.com/coreqode) /  <i class="fas fa-rss"></i> [Blog](https://coreqode.github.io/ikigai/)
 
 Feel free to contact me on [Email](chandradeep.pokhariya@research.iiit.ac.in) / [Twitter](https://twitter.com/coreqode). 
+

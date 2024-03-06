@@ -1,0 +1,80 @@
+- name: MANUS-Markerless Hand-Object Grasp Capture using Articulated 3D Gaussians 
+  authors:
+    - name: Chandradeep Pokhariya
+    - name: Ishaan N Shah*
+    - name: Angela Xing*
+    - name: Zekun Li
+    - name: Kefan Chen
+    - name: Avinash Sharma
+  links:
+    - text: Project Page
+      link: https://ivl.cs.brown.edu/research/manus.html
+    - text: Paper
+      link: https://arxiv.org/pdf/2312.02137.pdf
+  conference: Conference on Computer Vision and Pattern Recognition (CVPR'24)
+  image: /assets/images/about.png
+
+- name: DiVa360-The Dynamic Visual Dataset for Immersive Neural Fields
+  authors:
+    - name: Cheng-You Lu*
+    - name: Peisen Zhou*
+    - name: Angela Xing*
+    - name: Chandradeep Pokhariya†
+    - name: Arnab Dey†
+    - name: Ishaan Shah†
+    - name: Rugved Mavidipalli‡
+    - name: Dylan Hu‡
+    - name: Andrew Comport‡
+    - name: Kefan Chen
+    - name: Srinath Sridhar
+  links:
+    - text: Project Page
+      link: https://diva360.github.io/
+    - text: Paper
+      link: https://arxiv.org/pdf/2307.16897.pdf
+  conference: Conference on Computer Vision and Pattern Recognition (CVPR'24)
+  image: /assets/images/about.png
+
+- name: Discretization-Agnostic Deep Self-Supervised 3D Surface Parameterization
+  authors:
+    - name: Chandradeep Pokhariya
+    - name: Shanthika Naik
+    - name: Astitva Srivastava
+    - name: Avinash Sharma
+  links:
+    - text: Project Page
+      link: https://coreqode.github.io/param
+    - text: Paper
+      link: https://dl.acm.org/doi/10.1145/3550340.3564235
+  conference: SIGGRAPH Asia 2022 Technical Communications
+  image: /assets/images/about.png
+
+- name: SHARP-Shape-Aware Reconstruction of People in Loose Clothing
+  authors:
+    - name: Sai Sagar Jinka
+    - name: Astitva Srivastava
+    - name: Chandradeep Pokhariya
+    - name: Avinash Sharma
+    - name: P.J. Narayanan
+  links:
+    - text: Project Page
+      link: https://coreqode.github.io/sharp
+    - text: Paper
+      link: https://link.springer.com/article/10.1007/s11263-022-01736-z
+  conference: International Journal of Computer Vision (IJCV'22)
+  image: /assets/images/about.png
+
+- name: xCloth-Extracting Template-free Textured 3D Clothes from a Monocular Image
+  authors:
+    - name: Astitva Srivastava
+    - name: Chandradeep Pokhariya
+    - name: Sai Sagar Jinka
+    - name: Avinash Sharma
+  links:
+    - text: Project Page
+      link: https://coreqode.github.io/xcloth
+    - text: Paper
+      link: https://dl.acm.org/doi/abs/10.1145/3503161.3548419
+  conference: ACM International Conference on Multimedia (ACMMM'22)
+  image: /assets/images/about.png
+

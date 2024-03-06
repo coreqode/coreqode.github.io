@@ -1,5 +1,5 @@
 body {
-    font-family: Verdana, sans-serif;
+    font-family: "Georgia";
     margin: auto;
     padding: 20px;
     max-width: 720px;
@@ -344,7 +344,7 @@ small a {
 }
 
 .bottom-footer {
-    padding: 50px;
+    padding: 10px;
     text-align: center;
     font-size: 10px;
 }
@@ -353,4 +353,19 @@ small a {
  text-align: center
 }
 
+.publication {
+  display: flex;
+  justify-content: space-between;
+  }
 
+hr {
+  display: flex;
+  border-width: 0.5px;
+  border-color: lightgrey;
+}
+
+h4 {
+  display: block;
+  margin-block-start: 1.3em;
+  margin-block-end: 0.1em;
+}
