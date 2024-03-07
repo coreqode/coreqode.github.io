@@ -376,6 +376,7 @@ h4 {
    max-width: 25%;
    height: auto;
    padding: 5px;
+   transform: scaleX(-1);
    #border: 1px solid #ddd;
-   #border-radius: 4px;
+   #border-radius: 4px;S
 }
