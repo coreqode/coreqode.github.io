@@ -1,3 +1,18 @@
+- name: Towards Generalized Position Based Dynamics
+  authors:
+    - name: Manas Chaudhary
+    - name: Chandradeep Pokhariya
+    - name: Abhay Pratap Singh Rathore
+    - name: Argha Chakraborty
+    - name: Rahul Narain
+  links:
+    - text: Project Page
+      link: https://coreqode.github.io/publications
+    - text: Paper
+      link: https://coreqode.github.io/publications
+  conference: Under Evaluation
+  image: /assets/images/about.png
+
 - name: MANUS-Markerless Hand-Object Grasp Capture using Articulated 3D Gaussians 
   authors:
     - name: Chandradeep Pokhariya
@@ -6,6 +21,7 @@
     - name: Zekun Li
     - name: Kefan Chen
     - name: Avinash Sharma
+    - name: Srinath Sridhar
   links:
     - text: Project Page
       link: https://ivl.cs.brown.edu/research/manus.html
