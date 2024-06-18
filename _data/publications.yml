@@ -13,7 +13,7 @@
   conference: Under Evaluation
   image: /assets/images/about.png
 
-- name: MANUS-Markerless Hand-Object Grasp Capture using Articulated 3D Gaussians 
+- name: MANUS-Markerless Grasp Capture using Articulated 3D Gaussians 
   authors:
     - name: Chandradeep Pokhariya
     - name: Ishaan N Shah*
@@ -48,7 +48,7 @@
       link: https://diva360.github.io/
     - text: Paper
       link: https://arxiv.org/pdf/2307.16897.pdf
-  conference: Conference on Computer Vision and Pattern Recognition (CVPR'24)
+  conference: Conference on Computer Vision and Pattern Recognition (CVPR'24 Highlight)
   image: /assets/images/about.png
 
 - name: Discretization-Agnostic Deep Self-Supervised 3D Surface Parameterization
