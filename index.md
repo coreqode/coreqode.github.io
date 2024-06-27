@@ -2,11 +2,12 @@
 layout: about
 title: About
 ---
+I am an upcoming senior project scientist under the mentorship of [Dr. Rahul Narain](https://www.cse.iitd.ac.in/~narain/) at IIT Delhi, where I focus on generalizing Position Based Dynamics and Differentiable Cloth Simulation.
 
-I am a MS (research) student at [International Institute of Information Technology, Hyderabad](https://www.iiit.ac.in), working under the guidance of [Dr Avinash Sharma](https://3dcomputervision.github.io/about/) at CVIT and [Dr Srinath Sridhar](https://cs.brown.edu/people/ssrinath/) at [Brown IVL](https://ivl.cs.brown.edu). I am also collaborating with [Dr Rahul Narain](https://www.cse.iitd.ac.in/~narain/) on enhancing Position-Based Dynamics (PBD) for complex material models.
+Previously, I graduated with a MS (research) degree from [International Institute of Information Technology, Hyderabad](https://www.iiit.ac.in), under the guidance of [Dr Avinash Sharma](https://3dcomputervision.github.io/about/) at CVIT and [Dr Srinath Sridhar](https://cs.brown.edu/people/ssrinath/) at [Brown IVL](https://ivl.cs.brown.edu). 
 
-
-My research thus far has spanned a diverse range of topics, including neural fields, hand-object grasp capture, textured cloth and human body reconstruction, neural surface parameterization and physics simulation. Throughout this exploration across various fields, I have discovered a strong interest in the areas of <em>computational geometry, geometric modeling,</em> and <em>physics-based simulations</em>. 
+As part of my MS, I have explored a broad spectrum of research topics, including neural fields, hand-object grasp capture, textured cloth and human body reconstruction, neural surface parameterization. 
+Through these varied explorations, I have developed a deep interest for <em>computational geometry, implicit surfaces,</em> and <em>physics-based simulations</em>.
 
 In my leisure time I like to play [fingerstyle guitar](https://photos.app.goo.gl/uKAQGzjoXHCNwsdR9) and Indian bamboo flute. 
 I also love being in [nature](https://photos.app.goo.gl/zy3gfy7ecsk2fahra) and have recently taken up boxing as a new hobby.

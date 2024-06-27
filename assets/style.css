@@ -372,11 +372,11 @@ h4 {
 
 .profile-image{
    float: right;
-   border-radius: 8px;
-   max-width: 25%;
+   border-radius: 1px;
+   max-width: 35%;
    height: auto;
-   padding: 5px;
-   transform: scaleX(-1);
+   padding: 20px;
+   #transform: scaleX(-1);
    #border: 1px solid #ddd;
-   #border-radius: 4px;S
+   #border-radius: 4px;
 }
