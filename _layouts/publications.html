@@ -8,16 +8,20 @@ layout: default
     <img src="{{ publication.image }}" />-->
     </div>
     <div class="publication-container">
-      <h4>{{ publication.name }}</h4>
+      <h4>
+      {{ publication.name }}
+    </h4>
+          <i style = "color:#5D6D7E;"> 
       {% for author in publication.authors %}
         {% if author.name contains "Chandradeep" %}
-          <u>{{ author.name }}</u>{% if forloop.last == false %}, {% endif %}
+    <u>{{ author.name }}</u> {% if forloop.last == false %}, {% endif %}
         {% else %}
           {{ author.name }}{% if forloop.last == false %}, {% endif %}
         {% endif %}
       {% endfor %}
+    </i>
       <br/>
-      <i style="color:#999999;">{{ publication.conference }}</i>
+      <i style="color:#AA5444;">{{ publication.conference }}</i>
       <br/>
       {% for link in publication.links %}
         <a href="{{ link.link }}">[{{ link.text }}]</a>
