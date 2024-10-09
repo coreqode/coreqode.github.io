@@ -4,7 +4,7 @@ title: About
 ---
 
 Hi! I am a MS graduate from [IIIT Hyderabad](https://www.iiit.ac.in), where I was advised by [Dr Avinash Sharma](https://3dcomputervision.github.io/about/) at CVIT and [Dr Srinath Sridhar](https://cs.brown.edu/people/ssrinath/) at Brown IVL. 
-During my master's, I also spent beautiful five months as a visiting research fellow at Brown University.
+During my master's, I also spent five beautiful months as a visiting research fellow at Brown University.
 
 I am currently a Sr. Project Scientist at [IIT Delhi](https://home.iitd.ac.in/), advised by [Dr. Rahul Narain](https://www.cse.iitd.ac.in/~narain/) where I am working on *generalized position-based-dynamics* and *differentiable simulation*.
 
