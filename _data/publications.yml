@@ -8,8 +8,6 @@
   links:
     - text: Project Page
       link: https://coreqode.github.io/publications
-    - text: Paper
-      link: https://coreqode.github.io/publications
   conference: Under Evaluation
   image: /assets/images/gpbd_teaser.png
 
@@ -25,8 +23,6 @@
   links:
     - text: Project Page
       link: https://ivl.cs.brown.edu/research/manus.html
-    - text: Paper
-      link: https://arxiv.org/pdf/2312.02137.pdf
   conference: Conference on Computer Vision and Pattern Recognition (CVPR'24)
   image: /assets/images/manus_teaser.png
 
@@ -45,9 +41,7 @@
     - name: Srinath Sridhar
   links:
     - text: Project Page
-      link: https://diva360.github.io/
-    - text: Paper
-      link: https://arxiv.org/pdf/2307.16897.pdf
+      link: https://ivl.cs.brown.edu/research/diva
   conference: Conference on Computer Vision and Pattern Recognition (CVPR'24 Highlight)
   image: /assets/images/diva_teaser.png
 
@@ -61,7 +55,7 @@
     - text: Paper
       link: https://dl.acm.org/doi/10.1145/3550340.3564235
     - text: Project Page
-      link: https://coreqode.github.io/publications/diff_param
+      link: /diff_param
   conference: SIGGRAPH Asia 2022 Technical Communications
   image: /assets/images/uvparam_teaser.png
 
@@ -73,8 +67,8 @@
     - name: Avinash Sharma
     - name: P.J. Narayanan
   links:
-    - text: Paper
-      link: https://link.springer.com/article/10.1007/s11263-022-01736-z
+    - text: Project Page
+      link: /sharp
   conference: International Journal of Computer Vision (IJCV'22)
   image: /assets/images/sharp_teaser.png
 
@@ -85,8 +79,8 @@
     - name: Sai Sagar Jinka
     - name: Avinash Sharma
   links:
-    - text: Paper
-      link: https://dl.acm.org/doi/abs/10.1145/3503161.3548419
+    - text: Project Page
+      link: /xcloth
   conference: ACM International Conference on Multimedia (ACMMM'22)
   image: /assets/images/xcloth_teaser.png
 

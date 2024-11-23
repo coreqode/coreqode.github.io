@@ -6,8 +6,10 @@ layout: project_page
 <h1>
 Discretization-Agnostic Deep Self-Supervised 3D Surface Parameterization
 </h1>
+(Siggraph-Asia Technical Communications 2022)
 </center>
 
+<hr>
 
 <div class="is-size-2 publication-authors" align="center">
     <span class="author-block">
