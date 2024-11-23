@@ -60,6 +60,8 @@
   links:
     - text: Paper
       link: https://dl.acm.org/doi/10.1145/3550340.3564235
+    - text: Project Page
+      link: https://coreqode.github.io/publications/diff_param
   conference: SIGGRAPH Asia 2022 Technical Communications
   image: /assets/images/uvparam_teaser.png
 
