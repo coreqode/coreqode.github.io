@@ -60,6 +60,7 @@ Blog:
 # Add general links to site pages here
 links:
   Publications: /publications
+  Projects: /projects
   Resume: /assets/pdf/resume.pdf
 
 # Add links for more focus here
