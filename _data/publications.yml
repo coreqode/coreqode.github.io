@@ -52,8 +52,6 @@
     - name: Astitva Srivastava
     - name: Avinash Sharma
   links:
-    - text: Paper
-      link: https://dl.acm.org/doi/10.1145/3550340.3564235
     - text: Project Page
       link: /diff_param
   conference: SIGGRAPH Asia 2022 Technical Communications
