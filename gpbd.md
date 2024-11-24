@@ -56,16 +56,157 @@ The position-based dynamics (PBD) algorithm is a popular and versatile technique
  <hr>
 
  <h3>Results</h3>
- <h4>Results</h4>
+ <h5>Stretching</h5>
 
-{% include video.html
-   class="video is-fullwidth"
-   autoplay="autoplay"
-   muted="muted"
-   loop="loop"
-   playsinline="playsinline"
-   controls="controls"
-   preload="metadata"
-   poster=""
-   src="/assets/project_pages/gpbd/teaser.mp4"
-   type="video/mp4" %}
+ <div class="columns is-multiline">
+  <div class="column is-one-fifth">
+  {% include video.html
+     class="video is-responsive"
+     autoplay="autoplay"
+     muted="muted"
+     loop="loop"
+     playsinline="playsinline"
+     controls="controls"
+     preload="metadata"
+     poster=""
+     src="/assets/project_pages/gpbd/TetStretching0.41.mp4"
+     type="video/mp4" %}
+    <p class="caption has-text-centered">0.41 Poisson's ratio</p>
+  </div>
+  <div class="column is-one-fifth">
+  {% include video.html
+     class="video is-responsive"
+     autoplay="autoplay"
+     muted="muted"
+     loop="loop"
+     playsinline="playsinline"
+     controls="controls"
+     preload="metadata"
+     poster=""
+     src="/assets/project_pages/gpbd/TetStretching0.45.mp4"
+     type="video/mp4" %}
+    <p class="caption has-text-centered">0.45 Poisson's ratio</p>
+  </div>
+  <div class="column is-one-fifth">
+  {% include video.html
+     class="video is-responsive"
+     autoplay="autoplay"
+     muted="muted"
+     loop="loop"
+     playsinline="playsinline"
+     controls="controls"
+     preload="metadata"
+     poster=""
+     src="/assets/project_pages/gpbd/TetStretching0.49.mp4"
+     type="video/mp4" %}
+    <p class="caption has-text-centered">0.49 Poisson's ratio</p>
+  </div>
+  <div class="column is-one-fifth">
+  {% include video.html
+     class="video is-responsive"
+     autoplay="autoplay"
+     muted="muted"
+     loop="loop"
+     playsinline="playsinline"
+     controls="controls"
+     preload="metadata"
+     poster=""
+     src="/assets/project_pages/gpbd/TetStretching0.495.mp4"
+     type="video/mp4" %}
+    <p class="caption has-text-centered">0.495 Poisson's ratio</p>
+  </div>
+  <div class="column is-one-fifth">
+  {% include video.html
+     class="video is-responsive"
+     autoplay="autoplay"
+     muted="muted"
+     loop="loop"
+     playsinline="playsinline"
+     controls="controls"
+     preload="metadata"
+     poster=""
+     src="/assets/project_pages/gpbd/TetStretching0.4995.mp4"
+     type="video/mp4" %}
+    <p class="caption has-text-centered">0.4995 Poisson's ratio</p>
+  </div>
+</div>
+
+ <h5>Torsion</h5>
+
+<div class="columns is-multiline">
+  <div class="column">
+  {% include video.html
+     class="video is-responsive"
+     autoplay="autoplay"
+     muted="muted"
+     loop="loop"
+     playsinline="playsinline"
+     controls="controls"
+     preload="metadata"
+     poster=""
+     src="/assets/project_pages/gpbd/TetTorsionPi.mp4"
+     type="video/mp4" %}
+    <p class="caption has-text-centered">Torsion Pi</p>
+  </div>
+  <div class="column">
+  {% include video.html
+     class="video is-responsive"
+     autoplay="autoplay"
+     muted="muted"
+     loop="loop"
+     playsinline="playsinline"
+     controls="controls"
+     preload="metadata"
+     poster=""
+     src="/assets/project_pages/gpbd/TetTorsion2Pi.mp4"
+     type="video/mp4" %}
+    <p class="caption has-text-centered">Torsion 2Pi</p>
+    </div>
+</div>
+
+<h5>Randomize and Flatten</h5>
+
+<div class="columns is-multiline">
+  <div class="column">
+  {% include video.html
+     class="video is-responsive"
+     autoplay="autoplay"
+     muted="muted"
+     loop="loop"
+     playsinline="playsinline"
+     controls="controls"
+     preload="metadata"
+     poster=""
+     src="/assets/project_pages/gpbd/TetCubeRandomize.mp4"
+     type="video/mp4" %}
+    <p class="caption has-text-centered">Torsion Pi</p>
+  </div>
+  <div class="column">
+  {% include video.html
+     class="video is-responsive"
+     autoplay="autoplay"
+     muted="muted"
+     loop="loop"
+     playsinline="playsinline"
+     controls="controls"
+     preload="metadata"
+     poster=""
+     src="/assets/project_pages/gpbd/TetArmadilloRandomize.mp4"
+     type="video/mp4" %}
+    <p class="caption has-text-centered">Torsion 2Pi</p>
+    </div>
+  <div class="column">
+  {% include video.html
+     class="video is-responsive"
+     autoplay="autoplay"
+     muted="muted"
+     loop="loop"
+     playsinline="playsinline"
+     controls="controls"
+     preload="metadata"
+     poster=""
+     src="/assets/project_pages/gpbd/TetArmadilloFlatten.mp4"
+     type="video/mp4" %}
+    <p class="caption has-text-centered">Torsion 2Pi</p>
+    </div>
+</div>
