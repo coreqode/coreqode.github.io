@@ -54,7 +54,7 @@ The position-based dynamics (PBD) algorithm is a popular and versatile technique
 
  <hr>
 
- <h3>Results</h3>
+ <h3>Results (neo-Hookean with log barrier)</h3>
  <h5>Stretching</h5>
 
  <div class="columns is-multiline">
@@ -203,5 +203,158 @@ The position-based dynamics (PBD) algorithm is a popular and versatile technique
      src="/assets/project_pages/gpbd/TetArmadilloFlatten.mp4"
      type="video/mp4" %}
     <p class="caption has-text-centered">Flatten </p>
+    </div>
+</div>
+
+<h3>Results (HYLC cloth model)</h3>
+
+<h5>Stretching scenes</h5>
+
+<div class="columns is-multiline">
+  <div class="column">
+  {% include video.html
+     class="video is-responsive"
+     autoplay="autoplay"
+     muted="muted"
+     loop="loop"
+     playsinline="playsinline"
+     controls="controls"
+     preload="metadata"
+     poster=""
+     src="/assets/project_pages/gpbd/optimized/hylc_stretch_basket1_X.mp4"
+     type="video/mp4" %}
+    <p class="caption has-text-centered">Basket X</p>
+  </div>
+  <div class="column">
+  {% include video.html
+     class="video is-responsive"
+     autoplay="autoplay"
+     muted="muted"
+     loop="loop"
+     playsinline="playsinline"
+     controls="controls"
+     preload="metadata"
+     poster=""
+     src="/assets/project_pages/gpbd/optimized/hylc_stretch_honey1_X.mp4"
+     type="video/mp4" %}
+    <p class="caption has-text-centered">Honey X</p>
+    </div>
+  <div class="column">
+  {% include video.html
+     class="video is-responsive"
+     autoplay="autoplay"
+     muted="muted"
+     loop="loop"
+     playsinline="playsinline"
+     controls="controls"
+     preload="metadata"
+     poster=""
+     src="/assets/project_pages/gpbd/optimized/hylc_stretch_rib1_X.mp4"
+     type="video/mp4" %}
+    <p class="caption has-text-centered">Rib X</p>
+  </div>
+  <div class="column">
+  {% include video.html
+     class="video is-responsive"
+     autoplay="autoplay"
+     muted="muted"
+     loop="loop"
+     playsinline="playsinline"
+     controls="controls"
+     preload="metadata"
+     poster=""
+     src="/assets/project_pages/gpbd/optimized/hylc_stretch_satin1_X.mp4"
+     type="video/mp4" %}
+    <p class="caption has-text-centered">Satin X</p>
+    </div>
+  <div class="column">
+  {% include video.html
+     class="video is-responsive"
+     autoplay="autoplay"
+     muted="muted"
+     loop="loop"
+     playsinline="playsinline"
+     controls="controls"
+     preload="metadata"
+     poster=""
+     src="/assets/project_pages/gpbd/optimized/hylc_stretch_stock1_X.mp4"
+     type="video/mp4" %}
+    <p class="caption has-text-centered">Stock X </p>
+    </div>
+</div>
+
+
+<h5>Draping scenes</h5>
+
+<div class="columns is-multiline">
+  <div class="column">
+  {% include video.html
+     class="video is-responsive"
+     autoplay="autoplay"
+     muted="muted"
+     loop="loop"
+     playsinline="playsinline"
+     controls="controls"
+     preload="metadata"
+     poster=""
+     src="/assets/project_pages/gpbd/optimized/hylc_drape_basket1_X.mp4"
+     type="video/mp4" %}
+    <p class="caption has-text-centered">Basket X</p>
+  </div>
+  <div class="column">
+  {% include video.html
+     class="video is-responsive"
+     autoplay="autoplay"
+     muted="muted"
+     loop="loop"
+     playsinline="playsinline"
+     controls="controls"
+     preload="metadata"
+     poster=""
+     src="/assets/project_pages/gpbd/optimized/hylc_drape_honey1_X.mp4"
+     type="video/mp4" %}
+    <p class="caption has-text-centered">Honey X</p>
+    </div>
+  <div class="column">
+  {% include video.html
+     class="video is-responsive"
+     autoplay="autoplay"
+     muted="muted"
+     loop="loop"
+     playsinline="playsinline"
+     controls="controls"
+     preload="metadata"
+     poster=""
+     src="/assets/project_pages/gpbd/optimized/hylc_drape_rib1_X.mp4"
+     type="video/mp4" %}
+    <p class="caption has-text-centered">Rib X</p>
+  </div>
+  <div class="column">
+  {% include video.html
+     class="video is-responsive"
+     autoplay="autoplay"
+     muted="muted"
+     loop="loop"
+     playsinline="playsinline"
+     controls="controls"
+     preload="metadata"
+     poster=""
+     src="/assets/project_pages/gpbd/optimized/hylc_drape_satin1_X.mp4"
+     type="video/mp4" %}
+    <p class="caption has-text-centered">Satin X</p>
+    </div>
+  <div class="column">
+  {% include video.html
+     class="video is-responsive"
+     autoplay="autoplay"
+     muted="muted"
+     loop="loop"
+     playsinline="playsinline"
+     controls="controls"
+     preload="metadata"
+     poster=""
+     src="/assets/project_pages/gpbd/optimized/hylc_drape_stock1_X.mp4"
+     type="video/mp4" %}
+    <p class="caption has-text-centered">Stock X </p>
     </div>
 </div>
