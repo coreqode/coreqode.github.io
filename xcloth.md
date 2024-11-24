@@ -10,7 +10,7 @@ xCloth: Extracting Template-free Textured 3D Clothes from a Monocular Image"
 
  <hr>
 
-<div class="is-size-2 publication-authors" align="center">
+<div class="is-size-6 publication-authors" align="center">
     <span class="author-block">
         <a href="http://astitvasri.github.io">Astitva Srivastava</a><sup>1</sup>,
     </span>
@@ -19,7 +19,7 @@ xCloth: Extracting Template-free Textured 3D Clothes from a Monocular Image"
     <span class="author-block">
         <a href="https://coreqode.github.io">Sai Sagar Jinka</a><sup>1</sup>,</span>
     <span class="author-block">
-        <a href="https://3dcomputervision.github.io/about/">Avinash Sharma</a><sup>1</sup>,
+        <a href="https://3dcomputervision.github.io/about/">Avinash Sharma</a><sup>1</sup>
     </span>
     <br>
     <span class="author-block"><sup>1</sup>International Institute of Information
@@ -29,40 +29,40 @@ Technology Hyderabad, India</span>
 <div align="center">
     <span class="link-block">
         <a href="https://drive.google.com/file/d/1fc_rc7_06OUpaFA1RKKhxEUOUTOeEZBg/view?usp=sharing"
-            class="external-link button is-normal is-rounded is-dark">
+            class="external-link button is-small is-rounded is-dark">
             <span class="icon">
                 <i class="fas fa-file-pdf"></i>
             </span>
-            <span> Main Paper| </span>
+            <span> Main Paper </span>
         </a>
     </span>
 
     <span class="link-block">
         <a href="https://drive.google.com/file/d/19emWcW4toJxx_MKEPn3v6SYycouqVN-_/view?usp=sharing"
-            class="external-link button is-normal is-rounded is-dark">
+            class="external-link button is-small is-rounded is-dark">
             <span class="icon">
                 <i class="fas fa-file-pdf"></i>
             </span>
-            <span>Supplementary | </span>
+            <span>Supplementary </span>
         </a>
     </span>
 
     <span class="link-block">
         <a href="https://arxiv.org/pdf/2208.12934.pdf"
-            class="external-link button is-normal is-rounded is-dark">
+            class="external-link button is-small is-rounded is-dark">
             <span class="icon">
                 <i class="fas fa-file-pdf"></i>
             </span>
-            <span> ArXiv | </span>
+            <span> ArXiv </span>
         </a>
     </span>
     <span class="link-block">
         <a href="https://dl.acm.org/doi/10.1145/3503161.3548419"
-            class="external-link button is-normal is-rounded is-dark">
+            class="external-link button is-small is-rounded is-dark">
             <span class="icon">
                 <i class="fas fa-file-pdf"></i>
             </span>
-            <span> Publisher's Version | </span>
+            <span> Publisher's Version </span>
         </a>
     </span>
 </div>

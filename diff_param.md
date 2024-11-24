@@ -11,7 +11,7 @@ Discretization-Agnostic Deep Self-Supervised 3D Surface Parameterization
 
 <hr>
 
-<div class="is-size-2 publication-authors" align="center">
+<div class="is-size-6 publication-authors" align="center">
     <span class="author-block">
         <a href="https://coreqode.github.io">Chandradeep Pokhariya*</a><sup>1</sup>,</span>
     <span class="author-block">
@@ -20,7 +20,7 @@ Discretization-Agnostic Deep Self-Supervised 3D Surface Parameterization
         <a href="http://astitvasri.github.io">Astitva Srivastava</a><sup>1</sup>,
     </span>
     <span class="author-block">
-        <a href="https://3dcomputervision.github.io/about/">Avinash Sharma</a><sup>1</sup>,
+        <a href="https://3dcomputervision.github.io/about/">Avinash Sharma</a><sup>1</sup>
     </span>
     <br>
     <span class="author-block"><sup>1</sup>International Institute of Information
@@ -30,25 +30,25 @@ Technology Hyderabad, India</span>
 <div align="center">
     <span class="link-block">
         <a href="/assets/pdf/papers/diff_param_main.pdf"
-            class="external-link button is-normal is-rounded is-dark">
+            class="external-link button is-small is-rounded is-dark">
             <span class="icon">
                 <i class="fas fa-file-pdf"></i>
             </span>
-            <span> Main Paper   |   </span>
+            <span> Main Paper</span>
         </a>
     </span>
     <span class="link-block">
         <a href="/assets/pdf/papers/diff_param_suppl.pdf"
-            class="external-link button is-normal is-rounded is-dark">
+            class="external-link button is-small is-rounded is-dark">
             <span class="icon">
                 <i class="fas fa-file-pdf"></i>
             </span>
-            <span>Supplementary </span>
+            <span>Supplementary</span>
         </a>
     </span>
     <!-- <span class="link-block"> -->
     <!-- <a href="https://youtu.be/Nc2cdQQ__-Y"
-        class="external-link button is-normal is-rounded is-dark">
+        class="external-link button is-small is-rounded is-dark">
         <span class="icon">
             <i class="fab fa-youtube"></i>
         </span>

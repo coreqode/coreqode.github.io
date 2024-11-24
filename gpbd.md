@@ -8,10 +8,9 @@ Towards Generalized Position Based Dynamics
 </h1>
 (PrePrint 2024)
 </center>
-
 <hr>
 
-<div class="is-size-2 publication-authors" align="center">
+<div class="is-size-6 publication-authors" align="center">
     <span class="author-block">
         <a href="https://github.com/sin3point14">Manas Chaudhary</a><sup>*</sup>,
     </span>
@@ -23,7 +22,7 @@ Towards Generalized Position Based Dynamics
         <a href="">Argha Chakraborty</a><sup></sup>,
     </span>
     <span class="author-block">
-        <a href="https://www.cse.iitd.ac.in/~narain/">Rahul Narain</a><sup></sup>,
+        <a href="https://www.cse.iitd.ac.in/~narain/">Rahul Narain</a><sup></sup>
     </span>
     <br>
     <span class="author-block">
@@ -34,7 +33,7 @@ Towards Generalized Position Based Dynamics
 <div align="center">
     <span class="link-block">
         <a href="/gpbd"
-            class="external-link button is-normal is-rounded is-dark">
+            class="external-link button is-small is-rounded is-dark">
             <span class="icon">
                 <i class="fas fa-file-pdf"></i>
             </span>

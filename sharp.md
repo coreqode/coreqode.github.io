@@ -11,7 +11,7 @@ Shape Aware Reconstruction of People in Loose Clothing
 
 <hr>
 
-<div class="is-size-2 publication-authors" align="center">
+<div class="is-size-6 publication-authors" align="center">
     <span class="author-block">
         <a href="https://coreqode.github.io">Sai Sagar Jinka</a><sup>1</sup>,</span>
     <span class="author-block">
@@ -33,41 +33,41 @@ Technology Hyderabad, India</span>
 <div align="center">
     <span class="link-block">
         <a href="https://drive.google.com/file/d/1Xwt6D91AMX-w8-jS8FMhcA3ik8V-pODG/view?usp=sharing"
-            class="external-link button is-normal is-rounded is-dark">
+            class="external-link button is-small is-rounded is-dark">
             <span class="icon">
                 <i class="fas fa-file-pdf"></i>
             </span>
-            <span> Main Paper| </span>
+            <span>Main Paper</span>
         </a>
     </span>
 
     <span class="link-block">
         <a href="https://drive.google.com/file/d/18j65xXKJzYUymCZAppZfIW8YPUzNsK_3/view?usp=sharing"
-            class="external-link button is-normal is-rounded is-dark">
+            class="external-link button is-small is-rounded is-dark">
             <span class="icon">
                 <i class="fas fa-file-pdf"></i>
             </span>
-            <span>Supplementary | </span>
+            <span>Supplementary</span>
         </a>
     </span>
 
     <span class="link-block">
         <a href="https://arxiv.org/pdf/2205.11948.pdf"
-            class="external-link button is-normal is-rounded is-dark">
+            class="external-link button is-small is-rounded is-dark">
             <span class="icon">
                 <i class="fas fa-file-pdf"></i>
             </span>
-            <span> ArXiv | </span>
+            <span>ArXiv</span>
         </a>
     </span>
 
     <span class="link-block">
         <a href="https://link.springer.com/article/10.1007/s11263-022-01736-z"
-            class="external-link button is-normal is-rounded is-dark">
+            class="external-link button is-small is-rounded is-dark">
             <span class="icon">
                 <i class="fas fa-file-pdf"></i>
             </span>
-            <span> Publisher's Version | </span>
+            <span>Publisher's Version</span>
         </a>
     </span>
 
