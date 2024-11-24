@@ -131,7 +131,8 @@ The position-based dynamics (PBD) algorithm is a popular and versatile technique
   </div>
 </div>
 
- <h5>Torsion</h5>
+
+<h5>Torsion, Randomize and Flatten</h5>
 
 <div class="columns is-multiline">
   <div class="column">
@@ -162,11 +163,6 @@ The position-based dynamics (PBD) algorithm is a popular and versatile technique
      type="video/mp4" %}
     <p class="caption has-text-centered">Torsion 2Pi</p>
     </div>
-</div>
-
-<h5>Randomize and Flatten</h5>
-
-<div class="columns is-multiline">
   <div class="column">
   {% include video.html
      class="video is-responsive"
@@ -179,7 +175,7 @@ The position-based dynamics (PBD) algorithm is a popular and versatile technique
      poster=""
      src="/assets/project_pages/gpbd/TetCubeRandomize.mp4"
      type="video/mp4" %}
-    <p class="caption has-text-centered">Torsion Pi</p>
+    <p class="caption has-text-centered">Cube Randomize</p>
   </div>
   <div class="column">
   {% include video.html
@@ -193,7 +189,7 @@ The position-based dynamics (PBD) algorithm is a popular and versatile technique
      poster=""
      src="/assets/project_pages/gpbd/TetArmadilloRandomize.mp4"
      type="video/mp4" %}
-    <p class="caption has-text-centered">Torsion 2Pi</p>
+    <p class="caption has-text-centered">Armadillo Randomize</p>
     </div>
   <div class="column">
   {% include video.html
@@ -207,6 +203,6 @@ The position-based dynamics (PBD) algorithm is a popular and versatile technique
      poster=""
      src="/assets/project_pages/gpbd/TetArmadilloFlatten.mp4"
      type="video/mp4" %}
-    <p class="caption has-text-centered">Torsion 2Pi</p>
+    <p class="caption has-text-centered">Flatten </p>
     </div>
 </div>
