@@ -45,6 +45,21 @@
   conference: Conference on Computer Vision and Pattern Recognition (CVPR'24 Highlight)
   image: /assets/images/diva_teaser.png
 
+- name: 
+  name: RealGrasper - Learning Human Hand Grasping from Multi-View Images
+  authors:
+    - name: Chandradeep Pokhariya*
+    - name: Ishaan N Shah*
+    - name: Angela Xing
+    - name: Kefan Chen
+    - name: Avinash Sharma
+    - name: Srinath Sridhar
+  links:
+    - text: Paper
+      link: /diff_param
+  conference: Technical Report 2023
+  image: /assets/images/realgrasper_teaser.png
+
 - name: Discretization-Agnostic Deep Self-Supervised 3D Surface Parameterization
   authors:
     - name: Chandradeep Pokhariya
