@@ -60,8 +60,9 @@ Blog:
 # Add general links to site pages here
 links:
   Publications: /publications
-  Resume: /assets/pdf/resume.pdf
+# Projects: /projects
 
 # Add links for more focus here
 special_links:
+  CV: https://drive.google.com/file/d/1-ij27r9Xxs0XrPosQLqvPP9vjnJnNxcM/view?usp=sharing
   # "Search": https://duckduckgo.com

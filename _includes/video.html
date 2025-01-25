@@ -1,0 +1,14 @@
+
+<video
+  class="video {{ include.class }}"
+  {% if include.autoplay %}autoplay{% endif %}
+  {% if include.muted %}muted{% endif %}
+  {% if include.loop %}loop{% endif %}
+  {% if include.playsinline %}playsinline{% endif %}
+  {% if include.controls %}controls{% endif %}
+  preload="{{ include.preload }}"
+  poster="{{ include.poster }}"
+>
+  <source src="{{ include.src }}" type="{{ include.type }}">
+  Your browser does not support the video tag.
+</video>

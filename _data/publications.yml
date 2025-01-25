@@ -7,11 +7,9 @@
     - name: Rahul Narain
   links:
     - text: Project Page
-      link: https://coreqode.github.io/publications
-    - text: Paper
-      link: https://coreqode.github.io/publications
+      link: /gpbd
   conference: Under Evaluation
-  image: /assets/images/about.png
+  image: /assets/images/gpbd_teaser.png
 
 - name: MANUS-Markerless Grasp Capture using Articulated 3D Gaussians 
   authors:
@@ -25,10 +23,8 @@
   links:
     - text: Project Page
       link: https://ivl.cs.brown.edu/research/manus.html
-    - text: Paper
-      link: https://arxiv.org/pdf/2312.02137.pdf
   conference: Conference on Computer Vision and Pattern Recognition (CVPR'24)
-  image: /assets/images/about.png
+  image: /assets/images/manus_teaser.png
 
 - name: DiVa360-The Dynamic Visual Dataset for Immersive Neural Fields
   authors:
@@ -45,11 +41,24 @@
     - name: Srinath Sridhar
   links:
     - text: Project Page
-      link: https://diva360.github.io/
-    - text: Paper
-      link: https://arxiv.org/pdf/2307.16897.pdf
+      link: https://ivl.cs.brown.edu/research/diva
   conference: Conference on Computer Vision and Pattern Recognition (CVPR'24 Highlight)
-  image: /assets/images/about.png
+  image: /assets/images/diva_teaser.png
+
+- name: 
+  name: RealGrasper - Learning Human Hand Grasping from Multi-View Images
+  authors:
+    - name: Chandradeep Pokhariya*
+    - name: Ishaan N Shah*
+    - name: Angela Xing
+    - name: Kefan Chen
+    - name: Avinash Sharma
+    - name: Srinath Sridhar
+  links:
+    - text: Paper
+      link: /assets/pdf/papers/realgrasper.pdf
+  conference: Technical Report 2023
+  image: /assets/images/realgrasper_teaser.png
 
 - name: Discretization-Agnostic Deep Self-Supervised 3D Surface Parameterization
   authors:
@@ -59,11 +68,9 @@
     - name: Avinash Sharma
   links:
     - text: Project Page
-      link: https://coreqode.github.io/param
-    - text: Paper
-      link: https://dl.acm.org/doi/10.1145/3550340.3564235
+      link: /diff_param
   conference: SIGGRAPH Asia 2022 Technical Communications
-  image: /assets/images/about.png
+  image: /assets/images/uvparam_teaser.png
 
 - name: SHARP-Shape-Aware Reconstruction of People in Loose Clothing
   authors:
@@ -74,11 +81,9 @@
     - name: P.J. Narayanan
   links:
     - text: Project Page
-      link: https://coreqode.github.io/sharp
-    - text: Paper
-      link: https://link.springer.com/article/10.1007/s11263-022-01736-z
+      link: /sharp
   conference: International Journal of Computer Vision (IJCV'22)
-  image: /assets/images/about.png
+  image: /assets/images/sharp_teaser.png
 
 - name: xCloth-Extracting Template-free Textured 3D Clothes from a Monocular Image
   authors:
@@ -88,9 +93,7 @@
     - name: Avinash Sharma
   links:
     - text: Project Page
-      link: https://coreqode.github.io/xcloth
-    - text: Paper
-      link: https://dl.acm.org/doi/abs/10.1145/3503161.3548419
+      link: /xcloth
   conference: ACM International Conference on Multimedia (ACMMM'22)
-  image: /assets/images/about.png
+  image: /assets/images/xcloth_teaser.png
 
