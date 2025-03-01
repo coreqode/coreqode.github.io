@@ -3,13 +3,18 @@ layout: about
 title: About
 ---
 
-Hi! I am a MS graduate from [IIIT Hyderabad](https://www.iiit.ac.in), where I was advised by [Dr Avinash Sharma](https://3dcomputervision.github.io/about/) at CVIT and [Dr Srinath Sridhar](https://cs.brown.edu/people/ssrinath/) at Brown IVL. 
-During my master's, I also spent five beautiful months as a visiting research fellow at Brown University.
+I am currently a Senior Research Fellow at [IIT Delhi](https://home.iitd.ac.in/), working under the guidance of [Prof. Rahul Narain](https://www.cse.iitd.ac.in/~narain/). 
+My primarily research focuses on *generalized position-based-dynamics* and *differentiable simulation for adpative in-step re-meshing*.
 
-I am currently a Sr. Project Scientist at [IIT Delhi](https://home.iitd.ac.in/), advised by [Dr. Rahul Narain](https://www.cse.iitd.ac.in/~narain/) where I am working on *generalized position-based-dynamics* and *differentiable simulation*.
+I previously obtained my MSR degree from [IIIT Hyderabad](https://www.iiit.ac.in), where I was advised by [Prof. Avinash Sharma](https://3dcomputervision.github.io/about/) at CVIT and [Prof. Srinath Sridhar](https://cs.brown.edu/people/ssrinath/) at Brown IVL. 
+My master's work covered a range of problems at the intersection of 3D vision and computer graphics. 
+I also spent five beautiful months as a visiting research fellow at Brown University.
 
-My current research interests revolves around physical simulation and geometry processing. Specifically, I am interested in using inverse simulation to design and fabricate meta-materials and structures with desired properties. Having grown up in the Himalayas and experienced natural calamities firsthand, I am also keen to explore [extreme mechanics](https://www.sciencedirect.com/journal/extreme-mechanics-letters), focusing on the behavior of materials and structures under severe conditions. 
-Additionally, I am also interested in quantifying uncertainty and error in simulated physics when compared to real-world outcomes.
+Looking ahead, I am interested in physics-based simulation of all kind of natural phenomena, and exploring different geometric representations—such as distance fields and probability fields—to drive these simulations. 
+Having grown up in the Himalayas and experienced natural calamities firsthand, I am also keen to explore extreme mechanics and in studying how materials and structures behave under severe conditions. 
+Building on this, I am also excited about the computational design and fabrication of metamaterials/microstructures that remain robust in harsh environments.
+
+If you’re interested in discussing these ideas further or exploring related research directions—and you have an open PhD position for Fall 2025—please feel free to get in touch. **I am currently seeking PhD opportunities for the upcoming admissions cycle.**
 
 In my leisure time, I enjoy playing [fingerstyle guitar](https://photos.app.goo.gl/uKAQGzjoXHCNwsdR9) and the Indian bamboo flute. 
 I also love being in [nature](https://photos.app.goo.gl/ZY3gFY7EcSK2fAHRA) and have recently taken up boxing as a new hobby.
