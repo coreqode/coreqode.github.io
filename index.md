@@ -16,8 +16,5 @@ Building on this, I am also excited about the computational design and fabricati
 
 If you’re interested in discussing these ideas further or exploring related research directions—and you have an open PhD position for Fall 2025—please feel free to get in touch. **I am currently seeking PhD opportunities for the upcoming admissions cycle.**
 
-<!--In my leisure time, I enjoy playing [fingerstyle guitar](https://photos.app.goo.gl/uKAQGzjoXHCNwsdR9) and the Indian bamboo flute. -->
-<!--I also love being in nature and have recently taken up boxing as a new hobby.-->
-<!---->
-Feel free to contact me via [Email](chandradeep.pokhariya@research.iiit.ac.in) / [Twitter](https://twitter.com/coreqode) / [Linkedin](https://www.linkedin.com/in/chandradeep2/) / [Github](https://github.com/coreqode) / [Goodreads](https://www.goodreads.com/user/show/14982568-chandradeep-pokhariya). 
+Feel free to contact me via [Email](chandradeep.pokhariya@research.iiit.ac.in) / [Twitter](https://twitter.com/coreqode) / [Linkedin](https://www.linkedin.com/in/chandradeep2/) / [Github](https://github.com/coreqode) 
 
