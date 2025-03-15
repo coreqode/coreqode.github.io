@@ -5,14 +5,15 @@
 :root {
     --font-serif: 'Georgia', serif;
     --font-sans: 'Roboto', sans-serif;
-    --color-primary: #3273dc;
+    --color-primary: #111111;
     --color-secondary: #8b6fcb;
-    --color-text: #555;
+    --color-text: #333333;
     --color-text-dark: #222;
-    --color-background: #fff;
+    --color-background: #f7f7f7;
+    --background-color: #f7f7f7; 
     --color-background-dark: #01242e;
     --color-border: #ddd;
-    --color-hover: #2456a5; 
+    --color-hover: #555555; 
     --color-highlight: #f2f2f2;
     --color-muted: #777;
     --transition-speed: 0.3s;
@@ -96,9 +97,13 @@ p {
     font-size: 1.125rem;
 }
 
+/*html {*/
+/*  background-color: #f7f7f7 !important;*/
+/*}*/
+
 a {
     color: var(--color-primary);
-    text-decoration: none;
+    text-decoration: underline;
     transition: color var(--transition-speed), text-decoration var(--transition-speed);
 }
 
@@ -285,27 +290,6 @@ ul.discover-posts li small a {
 /* ===========================
    Publications and Profile
    =========================== */
-
-
-/* Publication Card Background */
-.publication {
-    background-color: #ffffff; /* Example light gray */
-    /* Existing styles */
-    display: flex;
-    align-items: center;
-    margin-bottom: 2em;
-    padding: 1em;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform var(--transition-speed), box-shadow var(--transition-speed);
-}
-
-.publication-image {
-    max-width: 30%;
-    padding: 3%;
-    border-radius: 1px;
-    object-fit: cover;
-}
 
 .profile-image {
     float: right;

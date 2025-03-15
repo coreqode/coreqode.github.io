@@ -1,33 +1,84 @@
 ---
 layout: default
+title: Publications
 ---
+
+<style>
+  .publications-list {
+    list-style: none;       
+    margin: 2rem 0;
+    padding: 0;
+  }
+
+  .publication {
+    display: flex;         
+    align-items: flex-start;
+    margin-bottom: 1.5rem; 
+  }
+
+  .publication-image img {
+    max-width: 150px; 
+    height: auto; 
+    object-fit: cover;     
+    margin-right: 1rem;    
+  }
+
+  .publication-container {
+    flex: 1;               
+  }
+
+  .publication-container h4 {
+    margin: 0 0 0.25rem;   
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .publication-container .authors {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  .publication-container .conference {
+    font-style: italic;
+    font-size: 0.8rem;
+    color: #E67E22;
+    margin: 0; 
+  }
+
+  .publication-container .links a {
+    text-decoration: underline;
+    font-size: 0.9rem;
+    margin-right: 0.5rem;  
+    margin: 0;
+  }
+</style>
+
 <h3>Publications</h3>
-{% for publication in site.data.publications %}
-  <div class="publication">
-    <div class="publication-image">
-    <img src="{{ publication.image }}" />
-    </div>
-    <div class="publication-container">
-      <h4>
-      {{ publication.name }}
-    </h4>
-      {% for author in publication.authors %}
-
-
-        {% if author.name contains "Chandradeep" %}
-    <u>{{ author.name }}</u> {% if forloop.last == false %}, {% endif %}
-        {% else %}
-          {{ author.name }}{% if forloop.last == false %}, {% endif %}
-        {% endif %}
-      {% endfor %}
-      <br/>
-      <i style="color:#E67E22;">{{ publication.conference }}</i>
-      <br/>
-      {% for link in publication.links %}
-        <a href="{{ link.link }}">[{{ link.text }}]</a>
-      {% endfor %}
-    </div>
-  </div>
-  <br>
-{% endfor %}
+<ul class="publications-list">
+  {% for publication in site.data.publications %}
+    <li class="publication">
+      <div class="publication-image">
+        <img src="{{ publication.image }}" alt="{{ publication.name }}" />
+      </div>
+      <div class="publication-container">
+        <h4>{{ publication.name }}</h4>
+        <p class="authors">
+          {% for author in publication.authors %}
+            {% if author.name contains "Chandradeep" %}
+              <u>{{ author.name }}</u>{% if forloop.last == false %}, {% endif %}
+            {% else %}
+              {{ author.name }}{% if forloop.last == false %}, {% endif %}
+            {% endif %}
+          {% endfor %}
+        </p>
+        <p class="conference">{{ publication.conference }}</p>
+        <p class="links">
+          {% for link in publication.links %}
+            <a href="{{ link.link }}">[{{ link.text }}]</a>
+          {% endfor %}
+        </p>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
 

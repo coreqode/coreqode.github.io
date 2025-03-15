@@ -4,37 +4,48 @@ layout: compress
 
 {% include head.html %}
 
-    <main>
+<main>
+  {% include header.html %}
 
-        {% include header.html %}
-
-    <div class="profile-image">
-    <img src="/assets/images/me_sgp.jpg" />
+  <div class="profile-image" style="text-align: center;">
+    <div style="display: inline-block; margin: 0;">
+      <img
+        id="slideshow"
+        alt="Slideshow Image"
+        style="max-width: 300px; display: block; width: 100%; border-radius: 15px; border: 2px solid #111111;"
+      />
+      <p
+        id="caption"
+        style="font-family: 'Courier New', Courier, monospace; font-size: 12px; margin: 0;"
+      ></p>
     </div>
-        
+    <script>
+      const images = [
+        {
+          src: "/assets/images/me_sgp24.jpg",
+          caption: "SGP 2024 at MIT Boston",
+        },
+        {
+          src: "/assets/images/me_sigasia22.jpg",
+          caption: "SIGASIA 2022 at Daegu, Korea",
+        },
+        {
+          src: "/assets/images/me_cvpr24.jpg",
+          caption: "CVPR 2024 at Seattle, US",
+        },
+      ];
+
+      const randomIndex = Math.floor(Math.random() * images.length);
+      document.getElementById("slideshow").src = images[randomIndex].src;
+      document.getElementById("caption").textContent = images[randomIndex].caption;
+    </script>
+  </div>
+
+  <div class="content-container" style="max-width: 1000px; padding: 0 20px; text-align: justify;">
     {{ content }}
+  </div>
+</main>
 
-  <!-- <!-- News Section --> 
-  <!-- <div class="news-section"> -->
-  <!--   <h3>News</h3> -->
-  <!--     <div class="news-list"> -->
-  <!--         <ul> -->
-  <!--           <li><strong>Oct 2024:</strong> Presented at the Symposium on Geometry Processing at MIT.</li> -->
-  <!--             <li><strong>Aug 2024:</strong> Paper accepted at ACM SIGGRAPH 2024.</li> -->
-  <!--             <li><strong>July 2024:</strong> Invited as a guest lecturer at IIT Delhi for Advanced Simulation Methods.</li> -->
-  <!--             <li><strong>June 2024:</strong> Awarded the best paper award at CVIT Hyderabad Annual Symposium.</li> -->
-  <!--             <li><strong>Aug 2024:</strong> Paper accepted at ACM SIGGRAPH 2024.</li> -->
-  <!--             <li><strong>July 2024:</strong> Invited as a guest lecturer at IIT Delhi for Advanced Simulation Methods.</li> -->
-  <!--             <li><strong>June 2024:</strong> Awarded the best paper award at CVIT Hyderabad Annual Symposium.</li> -->
-  <!--             <!-- Add more news items as needed --> 
-  <!--           </ul> -->
-  <!--       </div> -->
-  <!--   </div> -->
-  <!-- </strong></li></ul></h3></div> -->
-
-    </main>
-	
-    {% include footer.html %}
-
+{% include footer.html %}
 </body>
 </html>
