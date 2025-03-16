@@ -55,7 +55,7 @@ exclude:
 
 exclude: [vendor]
 
-Blog: 
+Blog: /blog
 
 # Add general links to site pages here
 links:
@@ -64,5 +64,5 @@ links:
 
 # Add links for more focus here
 special_links:
-  CV: https://drive.google.com/file/d/1-ij27r9Xxs0XrPosQLqvPP9vjnJnNxcM/view?usp=sharing
+  CV: https://drive.google.com/file/d/132e4fy6QxDhrnrB2WNwCsnOWmf-Gl90i/view?usp=sharing
   Personal: /personal  

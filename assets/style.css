@@ -5,7 +5,7 @@
 :root {
     --font-serif: 'Georgia', serif;
     --font-sans: 'Roboto', sans-serif;
-    --color-primary: #111111;
+    --color-primary: #3498db;
     --color-secondary: #8b6fcb;
     --color-text: #333333;
     --color-text-dark: #222;
@@ -13,7 +13,7 @@
     --background-color: #f7f7f7; 
     --color-background-dark: #01242e;
     --color-border: #ddd;
-    --color-hover: #555555; 
+    --color-hover: #1d6fa5; 
     --color-highlight: #f2f2f2;
     --color-muted: #777;
     --transition-speed: 0.3s;
@@ -25,11 +25,12 @@
 body {
     font-family: var(--font-serif);
     font-family: 'Lato', sans-serif;
-    margin: 0 auto;
-    padding: 20px;
-    max-width: 900px;
+    padding: 1rem 3rem; 
+    margin: 2rem auto;
+    max-width: 800px;
     background-color: var(--color-background);
     color: var(--color-text);
+    text-align: justify; 
     line-height: 1.6;
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -103,13 +104,29 @@ p {
 
 a {
     color: var(--color-primary);
-    text-decoration: underline;
     transition: color var(--transition-speed), text-decoration var(--transition-speed);
+    border-bottom: 0.1px dashed var(--color-primary); 
+    /*text-decoration: underline;*/
 }
 
 a:hover, a:focus {
     color: var(--color-hover);
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+}
+
+.section-divider {
+  border-top: 1px solid #ddd;
+  margin: 2rem 0;
+}
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  text-align: center;
+}
+.audio-player {
+  margin: 1.5rem 0;
+  text-align: center;
 }
 
 .title {
@@ -221,6 +238,12 @@ footer {
 /* ===========================
    Post Lists and Analytics
    =========================== */
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px; /* or your preferred spacing */
+}
+
 ul.post-list,
 ul.blog-posts,
 ul.discover-posts {
@@ -235,7 +258,7 @@ ul.discover-posts li {
     display: flex;
     align-items: center;
     padding: 10px 0;
-    border-bottom: 1px dashed var(--color-border);
+    /*border-bottom: 1px dashed var(--color-border);*/
 }
 
 ul.post-list li span,
