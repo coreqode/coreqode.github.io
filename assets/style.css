@@ -310,26 +310,26 @@ ul.discover-posts li small a {
 /* ===========================
    Publications and Profile
    =========================== */
-
 .profile-image {
-  
-    float: right;
-    border-radius: 6px;
-    width: 40%;
-    height: auto;
-    padding: 20px;
-    transition: transform var(--transition-speed);
+  float: right;
+  border-radius: 6px;
+  width: 40%;   /* smaller relative size on desktop */
+  height: auto;
+  padding: 20px;
+  transition: transform var(--transition-speed);
 }
 
 .profile-image:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
-@media (max-width: 600px)
-{
+@media (max-width: 600px) {
   .profile-image {
-    width: 40%; 
-    max-width: 200px
+    float: none;          /* stack it instead of floating */
+    display: block;
+    margin: 0 auto;       /* center it */
+    width: 60%;           /* bigger proportion on mobile */
+    max-width: 250px;     /* allow more room than 200px */
   }
 }
 
