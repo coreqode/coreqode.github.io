@@ -60,9 +60,9 @@ Blog:
 # Add general links to site pages here
 links:
   Research: /publications
-# Projects: /projects
 
 # Add links for more focus here
 special_links:
+  Notes: /notes
   CV: https://drive.google.com/file/d/132e4fy6QxDhrnrB2WNwCsnOWmf-Gl90i/view?usp=sharing
   Personal: /personal  

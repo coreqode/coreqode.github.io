@@ -12,7 +12,7 @@ layout: compress
       <img
         id="slideshow"
         alt="Slideshow Image"
-        style="max-width: 300px; display: block; width: 100%; border-radius: 15px; border: 2px solid #111111;"
+        style="max-width: 300px; display: block; width: 100%; border-radius: 10px; border: 1px solid #111111;"
       />
       <p
         id="caption"
@@ -22,16 +22,8 @@ layout: compress
     <script>
       const images = [
         {
-          src: "/assets/images/me_sgp24.jpg",
-          caption: "SGP 2024 at MIT Boston",
-        },
-        {
-          src: "/assets/images/me_sigasia22.jpg",
-          caption: "SIGASIA 2022 at Daegu, Korea",
-        },
-        {
-          src: "/assets/images/me_cvpr24.jpg",
-          caption: "CVPR 2024 at Seattle, US",
+          src: "/assets/images/me.jpeg",
+          caption: "",
         },
       ];
 
@@ -42,6 +34,7 @@ layout: compress
   </div>
 
     {{ content }}
+  </div>
 </main>
 
 {% include footer.html %}

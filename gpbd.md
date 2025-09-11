@@ -12,15 +12,15 @@ Towards Generalized Position Based Dynamics
 
 <div class="is-size-6 publication-authors" align="center">
     <span class="author-block">
-        <a href="https://github.com/sin3point14">Manas Chaudhary</a><sup>*</sup>,
-    </span>
-    <span class="author-block">
         <a href="https://coreqode.github.io">Chandradeep Pokhariya</a><sup>*</sup>,</span>
     <span class="author-block">
-        <a href="">Abhay Pratap Singh Rathore</a><sup></sup>,</span>
-    <span class="author-block">
-        <a href="">Argha Chakraborty</a><sup></sup>,
+        <a href="https://github.com/sin3point14">Manas Chaudhary</a><sup>*</sup>,
     </span>
+    <!-- <span class="author-block"> -->
+    <!--     <a href="">Abhay Pratap Singh Rathore</a><sup></sup>,</span> -->
+    <!-- <span class="author-block"> -->
+    <!--     <a href="">Argha Chakraborty</a><sup></sup>, -->
+    <!-- </span> -->
     <span class="author-block">
         <a href="https://www.cse.iitd.ac.in/~narain/">Rahul Narain</a><sup></sup>
     </span>

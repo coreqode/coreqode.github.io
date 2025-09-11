@@ -2,14 +2,15 @@
 /* ===========================
    CSS Variables for Theming
    =========================== */
+
+
 :root {
     --font-serif: 'Georgia', serif;
-    --font-sans: 'Roboto', sans-serif;
-    --color-primary: #3498db;
-    --color-secondary: #8b6fcb;
+    --color-primary: #0B7BFF;
+    --color-secondary: #FF5A5F;
     --color-text: #333333;
     --color-text-dark: #222;
-    --color-background: #f7f7f7;
+    --color-background: #ffffff;
     --background-color: #f7f7f7; 
     --color-background-dark: #01242e;
     --color-border: #ddd;
@@ -19,31 +20,27 @@
     --transition-speed: 0.3s;
 }
 
+
 /* ===========================
    Global Styles
    =========================== */
 body {
     font-family: var(--font-serif);
-    font-family: 'Lato', sans-serif;
     padding: 1rem 3rem; 
     margin: 2rem auto;
     max-width: 800px;
     background-color: var(--color-background);
     color: var(--color-text);
     text-align: justify; 
-    line-height: 1.6;
+    line-height: 1.3;
     word-wrap: break-word;
     overflow-wrap: break-word;
     transition: background-color var(--transition-speed), color var(--transition-speed);
 }
 
-:root {
-    --font-sans: 'Roboto', sans-serif;
-}
-
 /* Base styles for all headings */
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-sans, Arial, sans-serif);
+    font-family: var(--font-serif);
     color: var(--color-text-dark, #333);
     margin-top: 1.5em;
     margin-bottom: 0.75em;
