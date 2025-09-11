@@ -312,9 +312,10 @@ ul.discover-posts li small a {
    =========================== */
 
 .profile-image {
+  
     float: right;
-    border-radius: 4px;
-    max-width: 35%;
+    border-radius: 6px;
+    width: 40%;
     height: auto;
     padding: 20px;
     transition: transform var(--transition-speed);
@@ -322,6 +323,14 @@ ul.discover-posts li small a {
 
 .profile-image:hover {
     transform: scale(1.05);
+}
+
+@media (max-width: 600px)
+{
+  .profile-image {
+    width: 40%; 
+    max-width: 200px
+  }
 }
 
 /* ===========================
