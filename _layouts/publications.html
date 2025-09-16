@@ -45,31 +45,43 @@ title: Publications
   height: 1px; 
 }
 
+
+ .publication.highlight {
+    background-color: #e7f2ff; 
+  }
+
 </style>
 
 <h3>Publications</h3>
 
 <ul class="publications-list">
   {% for publication in site.data.publications %}
-    <li class="publication">
+
+    {% comment %}
+      MODIFIED: This condition now checks if the FIRST author's name
+      is 'Chandradeep Pokhariya'. The '.first' filter gets the
+      first item from the authors list.
+    {% endcomment %}
+    <li class="publication {% if publication.authors.first.name contains 'Chandradeep Pokhariya' %}highlight{% endif %}">
       <h4>{{ publication.name }}</h4>
       <p class="authors">
         {% for author in publication.authors %}
-          {% if author.name contains "Chandradeep" %}
-            <u>{{ author.name }}</u>{% unless forloop.last %}, {% endunless %}
+          {% comment %} Check for the exact full name to make it bold and underlined. {% endcomment %}
+          {% if author.name == 'Chandradeep Pokhariya' %}
+            <b><u>{{ author.name }}</u></b>{% unless forloop.last %}, {% endunless %}
           {% else %}
             {{ author.name }}{% unless forloop.last %}, {% endunless %}
           {% endif %}
         {% endfor %}
       </p>
-    <p class="conference-details">
-      <span class="conference">{{ publication.conference }}</span> | 
-      {% for link in publication.links %}
-      <a href="{{ link.link }}" target="_blank" rel="noopener noreferrer">{{ link.text }}</a>
-      {% endfor %}
-    </p>
+      <p class="conference-details">
+        <span class="conference">{{ publication.conference }}</span> |
+        {% for link in publication.links %}
+          <a href="{{ link.link }}" target="_blank" rel="noopener noreferrer">{{ link.text }}</a>
+        {% endfor %}
+      </p>
     </li>
-  <span class="small-break"></span>
+    <span class="small-break"></span>
 
   {% endfor %}
 </ul>

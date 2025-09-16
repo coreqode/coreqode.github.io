@@ -73,8 +73,8 @@
 
 - name: Discretization-Agnostic Deep Self-Supervised 3D Surface Parameterization
   authors:
-    - name: Chandradeep Pokhariya
-    - name: Shanthika Naik
+    - name: Chandradeep Pokhariya*
+    - name: Shanthika Naik*
     - name: Astitva Srivastava
     - name: Avinash Sharma
   links:
