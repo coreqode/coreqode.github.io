@@ -1,16 +1,3 @@
-- name: DyTact - Capturing Dynamic Contacts in Hand-Object Manipulation
-  authors:
-    - name: Xiaoyan Cong
-    - name: Angela Xing
-    - name: Chandradeep Pokhariya
-    - name: Rao Fu
-    - name: Srinath Sridhar
-  links:
-    - text: Project Page
-      link: https://oliver-cong02.github.io/DyTact.github.io/
-  conference: PrePrint
-  image: 
-
 - name: Towards Generalized Position Based Dynamics
   authors:
     - name: Chandradeep Pokhariya*
@@ -21,6 +8,20 @@
       link: /gpbd
   conference: Under Evaluation
   image: /assets/images/gpbd_teaser.png
+
+- name: DyTact - Capturing Dynamic Contacts in Hand-Object Manipulation
+  authors:
+    - name: Xiaoyan Cong
+    - name: Angela Xing
+    - name: Chandradeep Pokhariya
+    - name: Rao Fu
+    - name: Srinath Sridhar
+  links:
+    - text: Project Page
+      link: https://oliver-cong02.github.io/DyTact.github.io/
+  conference: 3DV 2026 Oral
+  image: 
+
 
 - name: MANUS-Markerless Grasp Capture using Articulated 3D Gaussians 
   authors:

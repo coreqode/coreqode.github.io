@@ -32,12 +32,12 @@ Towards Generalized Position Based Dynamics
 
 <div align="center">
     <span class="link-block">
-        <a href="/gpbd"
+        <a href="https://www.arxiv.org/pdf/2511.23131"
             class="external-link button is-small is-rounded is-dark">
             <span class="icon">
                 <i class="fas fa-file-pdf"></i>
             </span>
-            <span> Main Paper (Coming Soon) </span>
+            <span> PrePrint</span>
         </a>
     </span>
 </div>
