@@ -67,7 +67,7 @@ title: Publications
       <p class="authors">
         {% for author in publication.authors %}
           {% comment %} Check for the exact full name to make it bold and underlined. {% endcomment %}
-          {% if author.name == 'Chandradeep Pokhariya' %}
+          {% if author.name == 'Chandradeep Pokhariya*' or author.name == 'Chandradeep Pokhariya' or author.name == 'Chandradeep Pokhariya†' %}
             <b><u>{{ author.name }}</u></b>{% unless forloop.last %}, {% endunless %}
           {% else %}
             {{ author.name }}{% unless forloop.last %}, {% endunless %}

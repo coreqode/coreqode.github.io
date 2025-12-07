@@ -3,7 +3,7 @@ layout: about
 title: About
 ---
 
-I am a first-year PhD student in the [CRAFT](https://www.inria.fr/en/craft) team at the Inria (Université Grenoble Alpes), supervised by [Dr. Mélina Skouras](https://imagine.inrialpes.fr/people/mskouras/index.htm), [Prof. Arthur Lebée](https://navier-lab.fr/en/equipe/lebee-arthur/) and [Prof. Georges-Pierre Bonneau](https://evasion.inrialpes.fr/~Georges-Pierre.Bonneau/).
+I am a first-year PhD student in the [CRAFT](https://team.inria.fr/craft) team at the Inria Grenoble, supervised by [Dr. Mélina Skouras](https://imagine.inrialpes.fr/people/mskouras/index.htm), [Prof. Arthur Lebée](https://navier-lab.fr/en/equipe/lebee-arthur/) and [Prof. Georges-Pierre Bonneau](https://evasion.inrialpes.fr/~Georges-Pierre.Bonneau/).
 My research sits at the intersection of geometry processing, simulation and mechanics, with a focus on the computational design of origami-inspired inflatable hulls.
 <!---->
 <!-- I am also interested in exploring different geometric representations (e.g., distance and probability fields) to drive physically-accurate simulations.  -->
